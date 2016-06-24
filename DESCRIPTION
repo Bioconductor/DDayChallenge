@@ -1,0 +1,16 @@
+Package: DDayChallenge
+Type: Package
+Title: Exercises to Correct Common Programming Errors and Inefficiences
+Description: This package contains examples of what I feel are common
+    R errors and inefficiencies. The help pages describe the problem
+    and suggest possible solutions. Fix the problems. Implement unit
+    tests. Use github to track your work. Create a vignette!
+Version: 0.99.0
+Authors@R: person("Martin", "Morgan",
+        email="martin.morgan@roswellpark.org",
+        role="cre")
+License: Artistic-2.0
+Suggests:
+    microbenchmark,
+    testthat
+RoxygenNote: 5.0.1
